@@ -1,7 +1,7 @@
 # Site settings
 title: Cheril Yogi
 description: Mixing curiosity with real-world know-how, I make data engineering and science as approachable as your favorite story.
-
+ 
 # URL-related settings
 baseurl: "/cy2404.github.io"
 url: "https://cy2404.github.io"
@@ -18,6 +18,7 @@ navigation:
 # Jekyll build settings
 markdown: kramdown
 theme: jekyll-theme-minimal
+layout: default
 
 # Plugins
 plugins:
