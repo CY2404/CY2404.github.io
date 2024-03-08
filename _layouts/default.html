@@ -9,13 +9,7 @@
 </head>
 <body>
   <header>
-    <nav>
-      <ul>
-        {% for item in site.navigation %}
-          <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
-        {% endfor %}
-      </ul>
-    </nav>
+    {% include navigation.html %}
   </header>
   <main>{{ content }}</main>
 </body>
